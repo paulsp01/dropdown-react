@@ -1,0 +1,84 @@
+/* Styling for the initial option or select buttons */
+.initialOption{
+    background-color: rgba(28, 236, 39, 0.799);
+    display: flex;
+    justify-content: center;
+    margin-left: 29%;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 40%;
+    height: 9vh;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    border-radius: 34px;
+    animation:3s linear slideout;
+    box-shadow: 0 0 5px greenyellow;
+}
+.initialOption:hover{
+    box-shadow: 0 0 5px greenyellow, 0 0 25px greenyellow,0 0 50px greenyellow,0 0 100px greenyellow,0 0 200px greenyellow;
+}
+  @keyframes slideout{
+    from{
+        margin-right: 0%;
+    }
+    to{
+        margin-left: 30%;
+    }
+}
+
+h2{
+    color: rgb(220, 220, 211);
+}
+
+/* Style of the optrion div, in which the list arrayLoop is running */
+.option{
+    display: flex;
+    /* margin-top: 42px; */
+    padding-left: 10px;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+
+}
+/* Single div */
+.singleOption{
+    /* margin: 10px; */
+    
+    display: flex;
+    background-color: rgba(247, 10, 140, 0.756);
+    justify-content: center;
+    width: 40%;
+    /* padding-left: 20px; */
+    color: white;
+    font-size: 20px;
+    height: 6vh;
+    padding: 0px;
+    margin-left: 29%;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgb(223, 50, 171);
+}
+.singleOption:hover{
+ box-shadow: 0 0 5px rgb(212, 36, 212), 0 0 25px rgb(212, 36, 212),0 0 50px rgb(212, 36, 212),0 0 100px rgb(212, 36, 212),0 0 200px rgb(212, 36, 212);
+}
+
+
+.singleOption:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(208, 12, 226);
+    color: black;
+    
+}
+h1{
+    color: rgb(17, 17, 17);
+    animation:3s linear slidein ;
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
